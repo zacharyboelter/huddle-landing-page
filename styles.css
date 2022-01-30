@@ -1,3 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap');
+
+
+:root {
+    --violet: hsl(257, 40%, 49%)
+    --soft-magenta: hsl(300, 69%, 71%)
+}
+
+
+body {
+    height: 100vh;
+    background-image: linear-gradient(115deg,
+    hsl(300, 69%, 71%),
+    hsl(257, 40%, 49%)
+  ), url(./images/bg-desktop.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 
 .logo {
     background-color: black;
