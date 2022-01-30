@@ -16,6 +16,9 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    font-family: 'Poppins';
+    display: flex;
+    /* flex-direction: column; */
 }
 
 .logo {
