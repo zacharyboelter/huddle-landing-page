@@ -18,11 +18,15 @@ body {
     background-position: center;
     font-family: 'Poppins';
     display: flex;
-    /* flex-direction: column; */
+    flex-direction: column;
 }
 
 .logo {
     background-color: black;
+}
+
+.icons-wrapper img {
+    height: 50px;
 }
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
