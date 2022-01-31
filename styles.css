@@ -21,19 +21,102 @@ body {
     flex-direction: column;
 }
 
-.logo {
-    background-color: black;
+.main-container {
+    margin: 30px 50px;
+}
+
+.center-wrapper {
+    display: flex;
+   
+    
+}
+
+.hero-content {
+    width: 900px;
+   margin: 100px 30px;
+   color: white;
+}
+
+.hero-content button {
+      align-items: center;
+      appearance: none;
+      background-color: #fff;
+      border-radius: 24px;
+      border-style: none;
+      box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px,rgba(0, 0, 0, .14) 0 6px 10px 0,rgba(0, 0, 0, .12) 0 1px 18px 0;
+      box-sizing: border-box;
+      color: var(--violet);
+      cursor: pointer;
+      display: inline-flex;
+      fill: currentcolor;
+      margin-top: 15px;
+      /* font-family: "Google Sans",Roboto,Arial,sans-serif; */
+      font-size: 14px;
+      font-weight: 500;
+      height: 48px;
+      width: 200px;
+      justify-content: center;
+      letter-spacing: .25px;
+      line-height: normal;
+      max-width: 100%;
+      overflow: visible;
+      padding: 2px 24px;
+      position: relative;
+      text-align: center;
+      text-transform: none;
+      transition: box-shadow 280ms cubic-bezier(.4, 0, .2, 1),opacity 15ms linear 30ms,transform 270ms cubic-bezier(0, 0, .2, 1) 0ms;
+      user-select: none;
+      -webkit-user-select: none;
+      touch-action: manipulation;
+      /* width: auto; */
+      will-change: transform,opacity;
+      z-index: 0;
+    }
+.hero-content button:hover {
+    background: var(--soft-magenta);
+    color: #ffffff;
+   
+} 
+
+.hero-copy {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.logo img {
+    width: 200px;
+    margin-left: 50px;
+}
+.main-img img{
+    width: 730px;
+    margin: 65px 50px;
+}
+
+.icons-wrapper {
+    width: 300px;
+    margin: -100px 1000px;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .icons-wrapper img {
-    height: 50px;
+    height: 30px;
+    margin: 15px;
 }
+
+.github:hover {
+    background-image: url(./images/akar-icons_github-hover.png);
+}
+
+
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Attribution area
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
 .attribution {
+    margin-top: 100px;
      font-size: 11px; text-align: center; 
 }
 
