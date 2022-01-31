@@ -78,6 +78,9 @@ body {
    
 } 
 
+h1 {
+    font-size: 34px;
+}
 .hero-copy {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
@@ -105,8 +108,8 @@ body {
     margin: 15px;
 }
 
-.github:hover {
-    background-image: url(./images/akar-icons_github-hover.png);
+.icons-wrapper img:hover {
+   background-image: url(./images/akar-icons_github-hover.png);
 }
 
 
@@ -121,5 +124,5 @@ Attribution area
 }
 
 .attribution a { 
-    color: hsl(228, 45%, 44%); 
+    color: hsl(0, 0%, 100%); 
 }
